@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "expo-router-v3",
-    "slug": "expo-router-v3",
-    "version": "1.0.0",
+    "name": "susapp",
+    "slug": "susapp",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -41,7 +41,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "c511b9b7-19b0-40d4-ab3f-ca87416dfd1f"
+        "projectId": "53022aef-bb7a-4f8a-b1ce-848709af5670"
       }
     }
   }

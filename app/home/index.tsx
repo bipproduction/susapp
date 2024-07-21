@@ -1,10 +1,11 @@
 import { Iframe } from "@bounceapp/iframe";
-import { AddIcon, Button, ButtonIcon, Center, HStack, SafeAreaView, Spinner, Text, VStack } from "@gluestack-ui/themed";
+import { AddIcon, Button, ButtonIcon, Center, HStack, Spinner, Text, VStack } from "@gluestack-ui/themed";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useRouter } from "expo-router";
 import { ArrowBigLeft, ArrowBigLeftDashIcon, ArrowBigRight, ArrowLeftCircle, ChevronLeftCircle } from "lucide-react-native";
 import { useState, useEffect } from "react";
 import { Pressable } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Home() {
     const router = useRouter()

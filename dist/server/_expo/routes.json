@@ -1,5 +1,14 @@
 {
-  "apiRoutes": [],
+  "apiRoutes": [
+    {
+      "file": "_expo/functions/api/[path]/+api.js",
+      "page": "/api/[path]/",
+      "namedRegex": "^/api/(?<path>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "path": "path"
+      }
+    }
+  ],
   "htmlRoutes": [
     {
       "file": "./index.tsx",
